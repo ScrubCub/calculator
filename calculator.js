@@ -67,12 +67,11 @@ let entireContainer = {
     rowFive: createDiv()
 }
 
-let buttons = {};
 let operationSymbols = ['/', 'x', '-', '+'];
 
-entireContainer['container'].setAttribute('style', 'display: flex; flex-direction: column; background-color: salmon; height: 500px; width: 500px');
-entireContainer['screen'].setAttribute('style', 'background-color: salmon; height: 100px; width: 500px');
-
+entireContainer['container'].setAttribute('style', 'display: flex; flex-direction: column; background-color: salmon; height: 300px; width: 300px');
+entireContainer['screen'].setAttribute('style', 'background-color: salmon; height: 70px; width: 300px');
+entireContainer['screen'].id = 'screen';
 entireContainer['container'].appendChild(entireContainer['screen']);
 body.appendChild(entireContainer['container']);
 

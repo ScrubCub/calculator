@@ -1,0 +1,9 @@
+#screen {
+    text-align: right;
+    font-size: 40px;
+}
+
+div > div {
+    text-align: center;
+    font-size: 30px;
+}
